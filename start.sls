@@ -7,4 +7,4 @@ touch:
     - tgt: 'os:Windows'
     - tgt_type: grain
     - args:
-      - cmd: 'echo touch >> c:\runner.txt
+      - cmd: 'echo touch >> c:\runner.txt'
