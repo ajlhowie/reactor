@@ -3,4 +3,4 @@ touch:
     - tgt: 'os:Windows'
     - tgt_type: grain
     - args:
-      - cmd: 'echo touch >> c:\runner.txt'
+      - cmd: 'echo "minion started" >> c:\runner.txt'
