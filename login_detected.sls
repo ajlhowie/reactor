@@ -8,7 +8,7 @@ login_detected_reboot:
   local.cmd.run:
     - tgt: {{ data['id'] }}
     - args:
-      - cmd: 'shutdown /l /r /f'
+      - cmd: 'shutdown /r /f'
 
 login_detected_sns:
   runner.awscustom.send_sns:
